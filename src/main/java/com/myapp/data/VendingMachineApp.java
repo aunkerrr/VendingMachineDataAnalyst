@@ -1,7 +1,11 @@
 package com.myapp.data;
 
-public class App {
+import Report.GenerateReports;
+
+public class VendingMachineApp {
     public static void main(String[] args) {
-        VendingMachineData data = new VendingMachineData();
+        GenerateReports generateReport = new GenerateReports();
+        generateReport.generateReport();
+        return;
     }
 }
